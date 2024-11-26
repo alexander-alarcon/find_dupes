@@ -1,0 +1,14 @@
+[project]
+name = "find-dupes"
+version = "0.1.0"
+description = "A simple tool to find and remove duplicate files in a directory by comparing their content using SHA1 hashes."
+readme = "README.md"
+requires-python = ">=3.13"
+
+dependencies = []
+
+[dependency-groups]
+dev = ["mypy>=1.13.0", "ruff>=0.8.0"]
+
+[tool.mypy]
+mypy_path = "src"
